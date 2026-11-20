@@ -1,0 +1,19 @@
+{
+  "name": "echo-music",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Echo music player — Android and iOS shell",
+  "scripts": {
+    "sync": "cap sync",
+    "android": "cap open android",
+    "ios": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/ios": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
